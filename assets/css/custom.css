@@ -1,0 +1,21 @@
+*, html {
+
+  scroll-behavior: smooth !important;
+}
+
+@media (min-width: 1400px) {
+    .mega-menu-scroll {
+      height: auto;
+    }
+  }
+
+.offcanvas-header {
+padding-top: 0.5rem;
+padding-bottom: 0.5rem;
+display: flex;
+flex-direction: row;
+}
+
+.image-wrapper.bg-overlay-500:before {
+background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.7));
+}
